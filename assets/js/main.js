@@ -435,5 +435,19 @@
     }
     imJs.m();
 
+    // Update the event listener to handle different modals
+$('.rn-portfolio').on('click', function (e) {
+    var projectId = $(this).data('project-id');
+    // Dynamically populate modal content based on the project ID
+    populateModalContent(projectId);
+});
+
+function populateModalContent(projectId) {
+    // Based on the project ID, fetch project details and populate the modal
+    // Example:
+    var modal = $('#exampleModalCenter' + projectId);
+    // Update modal content here based on the project ID
+}
+
 
 })(jQuery, window)
