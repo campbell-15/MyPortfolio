@@ -11920,7 +11920,7 @@ body.template-color-1 {
 }
 .popuptab-area li a.nav-link.active {
   border-color: transparent !important;
-  color: var(--color-primary);
+  color: var(--color-white);
   background-color: transparent;
 }
 .popuptab-area li a.nav-link::before {
